@@ -16,6 +16,13 @@ int kcm(int base, int power){
     return res;
 }
 
+/* map 用法
+    cout << mp.rbegin()->second << "\n";
+    for( auto it = mp.begin() ; it != mp.end() ; ++it ){
+        cout << it->first << " " << it->second << "\n";
+    }
+*/
+
 int main(){
     opt
 }
