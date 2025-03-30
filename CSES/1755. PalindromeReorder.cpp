@@ -39,6 +39,7 @@ void solve(){
     s+=ans;
     //1-1 + 2
     cout << s;
+    //字串可以用+=，也能用push_back
 }
 int main(){
     solve();
