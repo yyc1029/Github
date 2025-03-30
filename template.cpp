@@ -18,9 +18,18 @@ int kcm(int base, int power){
 
 /* map 用法
     cout << mp.rbegin()->second << "\n";
+    這是回傳最後一位
     for( auto it = mp.begin() ; it != mp.end() ; ++it ){
         cout << it->first << " " << it->second << "\n";
     }
+    輸出像是
+    A 7
+    B 2
+    void count(){
+    for( auto i : s ){
+        mp[i]++;
+    }
+}
 */
 
 int main(){
