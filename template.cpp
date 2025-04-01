@@ -10,6 +10,9 @@ int kcm(int base, int power){
     int res = 1;
     while(power > 0){
         if(power & 1)res = res * base;
+        //這裡不是指1，而是假設pow = 4
+        //00000100 跟 00000000 
+        //從0, 0 開始比較
         base *= base;
         power >>= 1;
     }
